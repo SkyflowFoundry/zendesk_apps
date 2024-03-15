@@ -1,0 +1,46 @@
+{
+  "name": "Skyflow",
+  "author": {
+    "name": "Toms Zacharia",
+    "email": "toms.zacharia@skyflow.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "assets/iframe.html",
+        "flexible": true
+      },
+      "user_sidebar": {
+        "url": "assets/iframe.html",
+        "flexible": true
+      }
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0",
+  "domainWhitelist": ["ebfc9bee4242.vault.skyflowapis.com"],
+  "parameters": [
+    {
+      "name": "vaultID",
+      "type": "text",
+      "required": true,
+      "secure": true,
+      "default": "s8627ed0db7f4307a7c71e62f6ef5beb"
+    },
+    {
+      "name": "vault_subdomain",
+      "type": "text",
+      "required": true,
+      "secure": true,
+      "default": "ebfc9bee4242"
+    },
+    {
+      "name": "apikey",
+      "type": "text",
+      "required": true,
+      "secure": true
+    }
+  ]
+}
